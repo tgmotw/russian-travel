@@ -1,0 +1,14 @@
+.header__lang-link-container{
+    margin-right: 18px;
+}
+
+.header__lang-link-container:last-child{
+    margin-right: 0;
+}
+
+.header__lang-link-container::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: normal;
+    white-space: normal;
+    text-transform: none;
+}
