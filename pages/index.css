@@ -53,6 +53,7 @@
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 header{
     background-color: red;
@@ -63,9 +64,5 @@ main{
 }
 
 footer{
-    background-color: dodgerblue;
-}
-
-.footer{
     background-color: dodgerblue;
 }
