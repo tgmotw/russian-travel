@@ -1,0 +1,14 @@
+.footer__socials-item{
+    margin-right: 18px;
+}
+
+.footer__socials-item::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: normal;
+    white-space: normal;
+    text-transform: none;
+}
+
+.footer__socials-item:last-child{
+    margin-right: 0;
+}
