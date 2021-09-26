@@ -1,0 +1,11 @@
+.places__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.places__item::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: normal;
+    white-space: normal;
+    text-transform: none;
+}
