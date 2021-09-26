@@ -47,7 +47,12 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-
+/*Cover*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
 
 header{
     background-color: red;
