@@ -1,4 +1,8 @@
 .places__website{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     width: 100%;
-    max-width: 456px;
+    max-width: 484px;
 }

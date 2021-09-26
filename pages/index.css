@@ -34,6 +34,20 @@
 /*Photo-Grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/*Places*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
+@import url(../blocks/places/__item/places__item.css);
+@import url(../blocks/places/paces__header/places__header.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/places__website/places__website.css);
+@import url(../blocks/places/places__url-heading/places__url-heading.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/places__article/places__article.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__description/places__description.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+
 
 header{
     background-color: red;
