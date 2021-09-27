@@ -4,9 +4,9 @@
 Студент 5 потока Яндекс-Практикум
 Дятлов Юрий Вячеславович
 
-**GitHub**
+**Git Pages**
 
-https://github.com/tgmotw/russian-travel.git
+https://tgmotw.github.io/russian-travel/
 
 **Описание**
 
