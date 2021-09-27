@@ -1,5 +1,7 @@
 .places__article{
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
     max-width: 984px;
     margin-block-start: 0;
@@ -7,4 +9,11 @@
     margin-inline-start: 0;
     margin-inline-end: 0;
     margin-top: 43px;
+}
+
+@media screen and (max-width: 768px) {
+    .places__article{
+        flex-wrap: wrap;
+        margin-top: 32px;
+    }
 }

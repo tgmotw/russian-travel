@@ -4,4 +4,23 @@
     align-items: start;
     margin-top: 92px;
     width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 0 calc(4.6875vw - 0.046875 * (1024px - 100vw)) ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro{
+        padding: 0;
+    }
 }

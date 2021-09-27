@@ -1,5 +1,6 @@
 .places__title{
     max-width: 460px;
+    box-sizing: border-box;
     margin-block-start: 0;
     margin-block-end: 0;
     text-align: start;
@@ -8,4 +9,26 @@
     font-weight: 900;
     color: #fff;
     margin-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__title {
+        font-size: calc(7.03vw - 0.0468375 * (1024px - 100vw));
+        line-height: calc(7.03vw - 0.0468375 * (1024px - 100vw) + 4px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        font-size: calc(5.47vw + 0.02232143 * (768px - 100vw));
+        line-height: calc(5.47vw + 0.02232143 * (768px - 100vw) + 4px);
+        padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .places__title{
+        padding: 0 16px;
+    }
 }

@@ -1,26 +1,24 @@
-.header{
+.places__website{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     width: 100%;
-    max-width: 1184px;
+    max-width: 484px;
+    min-width: 288px;
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        padding: 0 calc(4.6875vw - 0.046875 * (1024px - 100vw)) ;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .header{
+    .places__website{
+        margin-top: 32px;
         padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
     }
 }
 
+
 @media screen and (max-width: 320px) {
-    .header{
+    .places__website{
         padding: 0 16px;
     }
 }

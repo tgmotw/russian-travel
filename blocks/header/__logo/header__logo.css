@@ -2,4 +2,14 @@
     background-image: url("../__logo/__logo.svg");
     width: 176px;
     height: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo{
+        width: calc(22.9166667vw + 0.16369048 * (768px - 100vw));
+        height: calc(6.77083333vw + 0.0453869 * (768px - 100vw));
+    }
 }

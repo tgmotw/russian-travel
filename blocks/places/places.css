@@ -2,4 +2,18 @@
     width: 100%;
     max-width: 984px;
     margin-top: 92px;
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places{
+        padding: 0 calc(4.6875vw - 0.046875 * (1024px - 100vw)) ;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places{
+        padding: 0;
+    }
 }

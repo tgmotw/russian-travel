@@ -1,4 +1,5 @@
 .places__description{
     width: 100%;
     max-width: 484px;
+    min-width: 288px;
 }
