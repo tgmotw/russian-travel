@@ -1,0 +1,17 @@
+.pixel-perfect{
+    position: absolute;
+    opacity: .3;
+    margin-top: -28px;
+}
+
+@media screen and (max-width: 1280px){
+    .pixel-perfect{
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .pixel-perfect{
+        width: 1024px;
+    }
+}

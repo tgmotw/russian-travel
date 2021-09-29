@@ -1,9 +1,0 @@
-.footer_external_margin_on{
-    margin-top: 92px;
-}
-
-@media screen and (max-width: 768px) {
-    .footer_external_margin_on{
-        margin-top: 64px;
-    }
-}

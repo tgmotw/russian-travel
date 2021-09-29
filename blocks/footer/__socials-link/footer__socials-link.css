@@ -6,3 +6,7 @@
     line-height: 1.13;
     text-decoration: none;
 }
+
+.footer__socials-link:hover{
+    opacity: .8;
+}

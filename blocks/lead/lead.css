@@ -2,6 +2,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 984px;
+    max-width: 1280px;
+}
+
+@media screen and (min-width: 1280px){
+    .lead{
+        padding: 0 148px;
+        margin-top: 56px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+    .lead{
+        padding: 0 48px;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead{
+        padding: 0 calc(4.6875vw - 0.140625 * (1024px - 100vw));
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead{
+        padding: 0;
+    }
 }

@@ -5,6 +5,10 @@
     width: 100%;
     max-width: 1184px;
     margin-top: 92px;
+    background-image: url("images/cover-trains.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1184px){
