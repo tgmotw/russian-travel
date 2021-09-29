@@ -1,0 +1,12 @@
+.photos__photo{
+    object-fit: contain;
+    width: 100%;
+    max-width: 284px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px){
+    .photos__photo{
+        max-width: 253px;
+    }
+}

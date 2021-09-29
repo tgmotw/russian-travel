@@ -32,9 +32,11 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list-item-data/__list-item-data.css);
-/*Photo-Grid*/
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/images/photo-grid__item.css);
+/*Photos*/
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__grid-table/photos__grid-table.css);
+@import url(../blocks/photos/__grid-table-item/photos__grid-table-item.css);
+@import url(../blocks/photos/__photo/photos__photo.css);
 /*Places*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);

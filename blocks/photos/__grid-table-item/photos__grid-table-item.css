@@ -1,0 +1,12 @@
+.photos__grid-table-item{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.photos__grid-table-item::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: normal;
+    white-space: normal;
+    text-transform: none;
+}
