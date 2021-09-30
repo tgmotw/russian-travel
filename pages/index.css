@@ -62,7 +62,6 @@
 @import url(../blocks/footer/__socials-link/footer__socials-link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url("../pixel-perfect.css");
 /*Заливка для вёрстки-------------------------------
 header{
     background-color: red;
