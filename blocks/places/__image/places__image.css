@@ -3,11 +3,26 @@
     width: 100%;
     max-width: 460px;
     min-width: 320px;
-    margin-right: 40px;
+    margin-right: 32px;
 }
 
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px){
+    .places__image{
+        margin-right: 32px;
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places__image{
+        margin-right: 28px;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .places__image{
         margin-right: 0;
     }

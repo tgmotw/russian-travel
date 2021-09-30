@@ -1,9 +1,24 @@
 .photos{
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
+
     box-sizing: border-box;
     width: 100%;
     max-width: 1280px;
     margin-top: 92px;
     padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .photos{
+        padding: 0 24px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photos{
+        margin-top: 64px;
+        padding: 0 16px
+    }
 }

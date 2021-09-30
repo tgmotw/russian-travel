@@ -13,7 +13,22 @@
 
 @media screen and (max-width: 768px) {
     .places__article{
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .places__article{
         flex-wrap: wrap;
-        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__article{
+        margin-top: 30px;
+    }
+
+    .places__article:first-child{
+        margin-top: 0;
     }
 }

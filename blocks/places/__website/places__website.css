@@ -9,10 +9,9 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .places__website{
         margin-top: 32px;
-        padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
     }
 }
 

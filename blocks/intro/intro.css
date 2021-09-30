@@ -5,7 +5,7 @@
     margin-top: 92px;
     width: 100%;
     box-sizing: border-box;
-    padding-left: 100px;
+    padding: 0 146px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 320px) {
     .intro{
-        padding: 0;
+        padding: 0 16px;
+        margin-top: 64px;
     }
 }

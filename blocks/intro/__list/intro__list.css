@@ -7,15 +7,3 @@
     padding-inline-start: 0;
     margin-top: 33px;
 }
-
-@media screen and (max-width: 768px) {
-    .intro__list{
-        padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__list{
-        padding: 0 16px;
-    }
-}

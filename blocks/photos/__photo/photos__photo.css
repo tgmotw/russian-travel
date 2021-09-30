@@ -1,12 +1,14 @@
 .photos__photo{
     object-fit: contain;
     width: 100%;
-    max-width: 284px;
     box-sizing: border-box;
 }
-
-@media screen and (max-width: 1024px){
+/*
+@media screen and (min-width: 1280px){
     .photos__photo{
-        max-width: 253px;
+        max-width: 283px;
+        min-width: 250px;
     }
 }
+*/
+

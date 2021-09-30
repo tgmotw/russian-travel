@@ -1,7 +1,5 @@
 .photos__grid-table-item{
     display: block;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .photos__grid-table-item::marker{
@@ -10,3 +8,4 @@
     white-space: normal;
     text-transform: none;
 }
+

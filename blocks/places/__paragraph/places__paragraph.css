@@ -17,18 +17,20 @@
 }
 
 @media screen and (max-width: 768px) {
-    .places__paragraph{
-        margin-top: 25px;
-        padding: 0 calc(3.125vw + 0.01339286 * (768px - 100vw));
-    }
-
-    .places__paragraph:first-child{
-        margin-top: 32px;
+    .places__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 1.63;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places__paragraph{
         padding: 0 16px;
+        margin-top: 25px;
+    }
+    .places__paragraph:first-child{
+        margin-top: 32px;
     }
 }
+
