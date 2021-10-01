@@ -11,8 +11,16 @@
     padding: 0;
 }
 
+@media screen and (max-width: 768px){
+    .intro__title{
+        font-size: calc(7.03125vw + 0.02120536 * (768px - 100vw));
+    }
+}
+
+
 @media screen and (max-width: 320px){
     .intro__title{
         font-size: 32px;
     }
 }
+
